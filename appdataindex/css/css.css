@@ -1,0 +1,502 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Raleway:wght@100&display=swap');*/
+html {
+  background: url(https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=2000) fixed;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font: normal normal 15px Raleway;
+	
+}
+a{color: unset;}
+/*
+ <!--By 4urThoH1N-->
+ kalboishakhi HTML SOft Website templete By Tawsif Toarbi and GR+ bangladesh
+ 
+ blog.grplusbd.net
+ www.grplusbd.net
+ app.grplusbd.net
+
+ */
+.main-container{
+	
+	/*Use This Code To Override the forced CSS Backgrpund color "background-color: rgba(255, 255, 255, 0.43) !important;"*/
+	background-color: rgba(255, 255, 255, 0.43);
+    
+	margin: 15px auto;
+    padding: 0;
+    text-align: left;
+    width: 98%;
+    max-width: 1230px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.38);
+	height: auto;
+	border-radius: 9px;
+}
+#header-wrapper {
+    margin: 0 auto 0;
+    padding: 10px;
+    overflow: hidden;
+    background: #FEFEFE2B;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 1px -1px 12px black;
+    background-size: cover;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+		  display: inline-block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  transition: 0.3s;
+		 font-size: 17px;
+		font-weight: bold;
+		border-radius: 3px;
+		transition: 0.3s;
+		}
+
+ul.topnav li a:hover {
+		background-color: #fff;
+		color: #000 !important;
+		transition: 0.3s;
+	}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+		  ul.topnav li:not(:first-child) {display: none;}
+		  ul.topnav li.icon {
+			float: right;
+			display: inline-block;
+		  }
+		  
+		}
+
+@media screen and (max-width:680px) {
+		  ul.topnav.responsive {position: relative;}
+		  ul.topnav.responsive li.icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		  }
+		  ul.topnav.responsive li {
+				float: none;
+				display: inline;
+			  }
+		  ul.topnav.responsive li a {
+			display: block;
+			text-align: left;
+		  }
+		}
+	
+.clearfix{
+	padding:10px 17px;
+}
+
+.phone {
+  background-color: #ececec;
+  padding: 10px 13px;
+  border-radius: 3px;
+  font-family: raleway;
+  font-weight: bold;
+  box-shadow: 0px 2px 12px #00000054;
+}
+
+.social{
+	font-size: 30px;
+	background-color: white;
+	border-radius: 3px;
+	padding: 10px 13px;
+	text-align: center;
+}
+a.fbnav{
+	color: #4267b2;
+	padding-left: 23px;
+	font-size: 28px;
+}
+a.twnav{
+	color: skyblue;
+	padding-left: 23px;
+	font-size: 28px;
+}
+a.tmblrnav{
+	color: black;
+	padding-left: 23px;
+	font-size: 28px;
+}
+a.gplusnav{
+	color: red;
+	padding-left: 23px;
+	font-size: 28px;
+}
+.footer {
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+    border-top: 3px solid black;
+	background-color: rgba(0, 0, 0, 0.67);
+	background: url(../bg3.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.footsoc{
+	color: white;
+	font-size: 34px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.footsoc:hover{
+	color: #3c3c3c;
+	font-size: 39px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.footsoc {
+    color: #777;
+    font-size: 34px;
+    text-decoration: none;
+    transition: 0.3s;
+    /*! text-shadow: 2px 2px 2px #060606; */
+}
+.footnav a{
+	color: black;
+	text-decoration: none;
+	font-family: raleway;
+}
+.credits{
+	color: black;
+	font-weight: bolder;
+}
+a.credits{
+	color: white;
+	font-weight: lighter;
+}
+a.credits{
+	color: black;
+	font-weight: bolder;
+}
+
+h2.apptitle{
+	color: black !important;
+	padding-left: 19px !important;
+	margin-bottom: 10px;
+    position: relative;
+	width: 350px;
+	font-family: MV boli;
+	border-bottom: 3px solid black;
+	border-spacing: 10px 50px;
+}
+
+.likebar{
+	padding-right: 19px !important;
+	float: right;
+}
+.sec {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.popapphold{
+    width: 90%;
+	
+	/*Use This Code To Override the forced CSS Backgrpund color " background-color: rgba(255, 255, 255, 0.6) !important; "*/
+	background-color: rgba(255, 255, 255, 0.6); 
+    
+	height: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid #E2E2E2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.38);
+	transition: 0.2s;
+	border-radius: 9px;
+}
+.popapphold:hover{
+	background-color: rgba(255, 255, 255, 0.9);
+	transition: 0.2s;
+	}
+
+.apptitlediv{
+    line-height: 1.5em;
+    font-size: 300%;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+	background: -webkit-linear-gradient(black, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: impact;
+	font-weight: 200;
+	padding: 5px 7px;
+    text-shadow: 1px 2px 12px rgba(8, 8, 8, 0.46);
+}
+.appsummary{
+margin: 1em 0; 
+padding: 0 1em; 
+height: 70%; 
+overflow: auto; 
+border: 1px solid #ccc; 
+box-shadow: inset 0 5px 5px rgba(0,0,0,0.1); 
+font-size: 0.9em;
+}
+a.download{
+    color: rgba(255, 255, 255, 0.28);
+    background-color: #dedfe0;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 76% !important;
+    transition: 0.5s;
+    /*! border: 1px solid black; */
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.45);
+    font-weight: bold;
+    text-shadow: 0 -1px 0 #000;
+}
+a.download:hover{
+	/*! color: black; */
+	background-color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 100% !important;
+	transition: 0.5s;
+}
+a.webpage{
+    color: rgba(255, 255, 255, 0.28);
+    background-color: #dedfe0;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 100% !important;
+    transition: 0.5s;
+    /*! border: 1px solid black; */
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.98);
+    font-weight: bold;
+    text-shadow: 0 -1px 0 #000;
+}
+a.webpage:hover{
+	/*! color: black; */
+	background-color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 100% !important;
+	transition: 0.5s;
+}
+.clearbutton{
+	padding-left: 10px !important;
+	width: 5px !important;
+}
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+	border-radius: 5px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+box-shadow: 0px 0px 10px white;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 25px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: white;
+}
+#return-to-top:hover i {
+    color: #000;
+    top: 5px;
+}
+		.orthi-textlightbox-background{
+			background-color: rgba(30, 23, 23, 0.82);
+			font-family: raleway; 
+			position: fixed; 
+			top:0px; 
+			bottom:0px; 
+			right:0px; 
+			width: 100%; 
+			border: none; 
+			margin:0; 
+			padding:0; 
+			overflow: hidden; 
+			z-index:999999; 
+			height: 100%;
+			}
+						
+			.orthi-textlightbox-area {
+				background-color: #fff;
+				position: absolute;
+				width: 50%;
+				max-width: 1200px;
+				left: 25%;
+				top: 8%;
+				bottom: 4%;
+				padding: 20px 10px;
+				border-radius: 6px;
+				box-shadow: 0 0 10px 0 white;
+				height: 500px;
+			}
+			.orthi-textlightbox-area-close{
+				font-family: webdings;
+				font-weight: bold;
+				background-color:black;
+				color: white;
+				border-radius: 50%;
+				padding: 10px;
+				float: right;
+				border: 1px solid black;
+				box-shadow: 0 0 10px 0 rgba(33, 157, 216, 0.82);
+				margin-top:-30px;
+				margin-right:-30px;
+				cursor:pointer;
+				-webkit-user-select: none;
+			}
+
+			
+			@keyframes fadeIn {
+				to {
+					opacity: 3;
+					}
+			}			
+
+			.fade-in {
+			animation: fadeIn 0.4s ease-in 1 forwards;
+			opacity: 0;
+			}
+			
+			
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 9px;
+    background: linear-gradient(#333, rgba(1, 11, 29, 0.85));
+    -webkit-box-shadow: inset 0 0 6px #000000;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #000000;
+    -webkit-border-radius: 9px;
+}
+
+
+.fblink{
+	text-align: center;
+    padding: 10px 13px;
+    font-size: 300%;
+    color: #4267b2;
+    text-shadow: 1px 1px 20px white;
+	text-decoration: none !important;
+}
+.cngbg {
+ background: #25A6E1;
+ background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+ background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+ background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+ background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+ background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+ background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+ padding:8px 13px;
+ color:#fff;
+ font-family:'Helvetica Neue',sans-serif;
+ font-size:17px;
+ border-radius:4px;
+ -moz-border-radius:4px;
+ -webkit-border-radius:4px;
+ border:1px solid #1A87B9
+}    
+.searchbox{
+  width: 60%;
+  height: 39px;
+  border: none;
+  background: #e3e3e3;
+  padding: 1px 0px 0px 14px;
+}
+
+.searchBtn {
+  height: 39px;
+  border: none;
+  background: black;
+  color: white;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  width: 62px;
+}
+.searchBtn:hover {
+  height: 39px;
+  border: none;
+  background: grey;
+  color: black;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  width: 62px;
+}
+#searchresult{
+	text-align: center;
+}
+#searchresultTable{
+	font-size: 11px;
+	font-family: raleway;
+}
+#searchresultTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#searchresultTable td, #searchresultTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#searchresultTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#searchresultTable tr:hover {background-color: #ddd;}
+
+#searchresultTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #686868;
+  color: white;
+  text-align: center;
+}
